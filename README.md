@@ -9,7 +9,7 @@ src\app\register\page.js (13:31) @ Register
 
 ```bash
 const Register = () => {
-const { register } = useAuth({                       ^
+const { register } = useAuth({                       
      middleware: "guest",
      redirectIfAuthenticated: "/dashboard",
    });
